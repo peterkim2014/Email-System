@@ -3,7 +3,7 @@ import smtplib
 username="program.python.test@gmail.com"
 password = "hfzuhitpywagszzg"
 
-def send_mail(customer, company, to_emails=None):
+def send_mail(text, subject, to_emails=None):
     assert isinstance(to_emails, list)
 
     # login smtp server
